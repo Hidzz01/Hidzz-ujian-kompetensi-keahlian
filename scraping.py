@@ -11,9 +11,7 @@ driver.get("https://www.yelp.com/search?cflt=restaurants&find_loc=San+Francisco%
 password = 'Hidzz_chka01'
 cxn_str = f'mongodb+srv://Hidzz_chka:{password}@cluster0.n0zq5jy.mongodb.net/?retryWrites=true&w=majority'
 client = MongoClient(cxn_str)
-db = client.dbsparta_plus_week3
-
-
+db = client.dbsparta_plus_restoranmewah
 
 url = "https://www.yelp.com/search?cflt=restaurants&amp;find_loc=San+Francisco%2C+CA"
 

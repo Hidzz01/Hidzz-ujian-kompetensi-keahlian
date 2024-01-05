@@ -4,10 +4,11 @@ from pymongo import MongoClient
 
 app = Flask(__name__)
 
-password = 'Fauzanazh21'
-cxn_str = f'mongodb+srv://Fauzanazh:{password}@cluster0.ozrokjw.mongodb.net/?retryWrites=true&w=majority'
+
+password = 'Hidzz_chka01'
+cxn_str = f'mongodb+srv://Hidzz_chka:{password}@cluster0.n0zq5jy.mongodb.net/?retryWrites=true&w=majority'
 client = MongoClient(cxn_str)
-db = client.dbsparta_Web_Restoran
+db = client.dbsparta_plus_restoranmewah
 
 @app.route('/')
 def main():
